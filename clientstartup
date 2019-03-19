@@ -1,0 +1,4 @@
+#!/bin/bash
+
+nohup redis-server &
+nohup python -u main.py > out.log 2>&1 &

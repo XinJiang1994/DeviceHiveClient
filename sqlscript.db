@@ -1,0 +1,5 @@
+CREATE TABLE `device_status` (
+  `device_id` VARCHAR(20) NOT NULL,
+  `uptime` DOUBLE NULL,
+  `recent_heartbeat` DOUBLE NULL,
+  PRIMARY KEY (`device_id`));
